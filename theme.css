@@ -1,0 +1,9 @@
+[data-name="title-input"],
+div[class*="editor-toolbarTitleContainer"],
+h3[class*="editor-toolbarTitle"],
+.ql-editor,
+body {
+    background-color: rgb(52, 52, 52);
+    background:rgb(52, 52, 52);
+    color: rgb(204, 204, 204);
+}
