@@ -9,7 +9,8 @@ body {
 }
 
 div[class*="-dropdown-list"] {
-    background: #181818 ;
+    background: #181818;
+    border-color: #484848;
 }
 
 [class*="-button-flat"]:not([data-disabled="true"])[data-hovered="false"] {
