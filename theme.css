@@ -7,3 +7,15 @@ body {
     background:rgb(52, 52, 52);
     color: rgb(204, 204, 204);
 }
+
+div[class*="-dropdown-list"] {
+    background: #181818 ;
+}
+
+[class*="-button-flat"]:not([data-disabled="true"])[data-hovered="false"] {
+    color: #949494;
+}
+
+[class*="-button-flat"]:not([data-disabled="true"])[data-hovered="true"] {
+    background: #242424 ;
+}
