@@ -1,3 +1,6 @@
+/* editor */
+/* ========================================================================== */
+
 [data-name="title-input"],
 div[class*="editor-toolbarTitleContainer"],
 h3[class*="editor-toolbarTitle"],
@@ -8,8 +11,11 @@ body {
     color: rgb(204, 204, 204);
 }
 
+/* editor menus */
+/* ========================================================================== */
+
 div[class*="-dropdown-list"] {
-    background: #181818;
+    background: #181818 ;
     border-color: #484848;
 }
 
@@ -19,4 +25,32 @@ div[class*="-dropdown-list"] {
 
 [class*="-button-flat"]:not([data-disabled="true"])[data-hovered="true"] {
     background: #242424 ;
+}
+
+/* document selector navigation */
+/* ========================================================================== */
+
+[data-name="editor-main-menu"] {
+    background-color: #181818;
+}
+
+/* document selector main panel */
+/* ========================================================================== */
+
+[class*="-main"]>[class*="-view"] {
+    background-color: rgb(52, 52, 52);
+}
+
+
+/* document selector main panel buttons */
+/* ========================================================================== */
+[data-name="new-doc-item"]>[class*="-actions"],
+[class*="-itemWrapper"]>[class*="-actions"]{
+    background-color: #181818;
+}
+
+[data-name="new-doc-item"],
+[data-name="doc-item"] {
+    background-color: #181818;
+    color: rgb(204, 204, 204);
 }
